@@ -36,7 +36,7 @@ if __name__ == "__main__":
     
     # plotting the graph for y1 against y0
     plt.plot(sol[:, 0],sol[:,1], 'b', label='Predator y1 against Prey y0')
-    plt.title('Predator y1 against Prey y0 with initial_y0 = 0.1')
+    plt.title('Graph of Predator y1 against Prey y0 with initial_y0 = 0.1')
     plt.legend(loc='best')
     plt.xlabel('Prey y0')
     plt.ylabel('Predator y1')
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     # plotting the graph for both y0 and y1 against t
     plt.plot(t, sol[:, 0], 'b', label='Prey y0 against t')
     plt.plot(t, sol[:, 1], 'r', label='Predator y1 against t')
-    plt.title('y against t with initial_y0 = 0.11')
+    plt.title('Graph of y against t with initial_y0 = 0.11')
     plt.legend(loc='best')
     plt.xlabel('Year t')
     plt.ylabel('y')
@@ -75,7 +75,7 @@ if __name__ == "__main__":
     
     # plotting the graph for y1 against y0
     plt.plot(sol[:, 0],sol[:,1], 'r', label='Predator y1 against Prey y0')
-    plt.title('Predator y1 against Prey y0 with initial_y0 = 0.11')
+    plt.title('Graph of Predator y1 against Prey y0 with initial_y0 = 0.11')
     plt.legend(loc='best')
     plt.xlabel('Prey y0')
     plt.ylabel('Predator y1')

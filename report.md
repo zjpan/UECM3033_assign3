@@ -53,17 +53,20 @@ Later, the odeint module in python,  *sol = spIn.odeint(ode,ini_y,t,args=(a,b))*
 **Put your graphs here and explain.**
 
 ![Graph_of_y0_and_y1_01.jpg](Graph_of_y0_and_y1_01.jpg)
+
 This is the graph of Prey y0 and Predator y1 against Year t, where the initial condition is y0 = 0.1, y1 = 1.0. We can see that the number of prey increase when the number of predator decreases.
 
 ![Graph_of_y1_against_y0_01.jpg](Graph_of_y1_against_y0_01.jpg)
+
 This is the graph of Predator y1 against Prey y0, where the initial condition is y0 = 0.1, y1 = 1.0. We can see that there is a inverse relationship between y0 and y1.
 
 ![Graph_of_y0_and_y1_02.jpg](Graph_of_y0_and_y1_02.jpg)
+
 This is the graph of Prey y0 and Predator y1 against Year t, where the initial condition is y0 = 0.11, y1 = 1.0
 
 ![Graph_of_y1_against_y0_02.jpg](Graph_of_y1_against_y0_02.jpg)
-This is the graph of Predator y1 against Prey y0, where the initial condition is y0 = 0.11, y1 = 1.0
 
+This is the graph of Predator y1 against Prey y0, where the initial condition is y0 = 0.11, y1 = 1.0
 
 **Is the system of ODE sensitive to initial condition? Explain.**
 
